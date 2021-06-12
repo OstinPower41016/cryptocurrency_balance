@@ -1,0 +1,43 @@
+.select {
+  background: #303030;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  position: relative;
+  cursor: pointer;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    & > img {
+      height: 8px;
+      margin-left: 10px;
+    }
+  }
+  &__options {
+    position: absolute;
+    width: 100%;
+    background: #fff;
+    color: black;
+    text-align: left;
+    top: 130%;
+    left: 0;
+    transition: 1s ease;
+    visibility: hidden;
+    opacity: 0;
+    &--active {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+  &__option {
+    padding: 15px 10px;
+    &:hover {
+      color: white;
+      background: black;
+    }
+  }
+}

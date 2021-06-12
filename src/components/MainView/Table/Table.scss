@@ -1,0 +1,60 @@
+.table {
+  width: 100%;
+  text-align: center;
+  background: #303030;
+  padding: 0 2rem;
+  border-radius: 16px;
+  color: #979797;
+  border-collapse: separate;
+  &__coin {
+    text-align: left;
+    &-cell {
+      display: flex;
+      align-items: center;
+      color: #faa52b;
+    }
+  }
+  &__icon {
+    width: 20px;
+    margin-right: 10px;
+  }
+}
+
+td {
+  padding: 1.5rem 0;
+  vertical-align: middle;
+  border-bottom: 1px solid #454545;
+}
+td:first-child {
+  text-align: left;
+}
+
+tr > td:nth-child(even) {
+  background: #3a3a3a;
+}
+
+.green {
+  animation: green-anim 1.5s;
+}
+
+.red {
+  animation: red-anim 1.5s;
+}
+
+@keyframes green-anim {
+  from {
+    color: rgba($color: #13c41b, $alpha: 1);
+  }
+  to {
+    color: #979797;
+  }
+}
+
+@keyframes red-anim {
+  from {
+    color: rgba($color: #da0d0d, $alpha: 1);
+  }
+  to {
+    color: #979797;
+  }
+}

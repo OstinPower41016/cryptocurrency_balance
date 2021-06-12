@@ -1,0 +1,21 @@
+.sum {
+  &__wrapper {
+    width: 300px;
+    margin-top: 100px;
+  }
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &:not(:first-child) {
+      margin-top: 20px;
+    }
+    &-title {
+      color: #fff;
+      opacity: 0.5;
+    }
+    &-value {
+      color: #fff;
+    }
+  }
+}
