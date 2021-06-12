@@ -1,7 +1,7 @@
 {
   "name": "standart-bit500",
   "version": "0.1.0",
-  "private": true,
+  "homepage": "http://ostinpower41016.github.io/cryptocurrency_balance/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.6.0",
     "@testing-library/jest-dom": "^5.11.4",
