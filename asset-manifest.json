@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/cryptocurrency_balance/static/css/main.a2c6db2b.chunk.css",
-    "main.js": "/cryptocurrency_balance/static/js/main.86558c4a.chunk.js",
-    "main.js.map": "/cryptocurrency_balance/static/js/main.86558c4a.chunk.js.map",
+    "main.js": "/cryptocurrency_balance/static/js/main.ad91f76e.chunk.js",
+    "main.js.map": "/cryptocurrency_balance/static/js/main.ad91f76e.chunk.js.map",
     "runtime-main.js": "/cryptocurrency_balance/static/js/runtime-main.48594251.js",
     "runtime-main.js.map": "/cryptocurrency_balance/static/js/runtime-main.48594251.js.map",
     "static/css/2.0978f8b3.chunk.css": "/cryptocurrency_balance/static/css/2.0978f8b3.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.0978f8b3.chunk.css",
     "static/js/2.84c56950.chunk.js",
     "static/css/main.a2c6db2b.chunk.css",
-    "static/js/main.86558c4a.chunk.js"
+    "static/js/main.ad91f76e.chunk.js"
   ]
 }
